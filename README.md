@@ -28,4 +28,4 @@ Examines why Milnor-fiber / Betti-number comparisons of the determinant and perm
 Self-attention blocks augmented with Hebbian fast-weight updates during inference for in-context adaptation.
 
 ### [SuperCon Zero-Copy Discovery](https://github.com/nauheimervater/supercon-zero-copy-discovery) — *work in progress*
-Pipeline architecture for ML-guided superconductor screening on an AMD Strix Halo APU, with C++/HIP zero-copy (`hipHostMallocMapped` + `torch::from_blob`) sources. Measured benchmarks and DFT results are pending (see the erratum in the repository).
+Pipeline architecture for ML-guided superconductor screening on an AMD Strix Halo APU, with C++/HIP zero-copy (`hipHostMallocMapped` + `torch::from_blob`) sources and Quantum ESPRESSO v7.5 SCF inputs/outputs for five generated candidates. A measured zero-copy benchmark is pending (see the status section in the repository).
